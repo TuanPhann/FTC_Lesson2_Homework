@@ -1,0 +1,521 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: "Lato", sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+/* day la phan menu */
+#menu {
+    background-color: #000;
+    width: 100%;
+    min-height: 46px;
+    display: flex;
+    position: fixed;
+}
+
+#menu #one {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#menu #one li {
+    cursor: pointer;
+    position: relative;
+}
+
+#menu #one li:hover a {
+    color:#000;
+    background-color: #ccc;
+
+}
+
+#menu > #one > li > a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#fff;
+    padding: 15px 24px;
+}
+
+ #menu  li:hover  #two {
+    display: block;
+} 
+ 
+ #menu #two {
+     display: none;  
+    position: absolute;
+    left: 0;
+    top: 32px;
+    background-color: #fff;
+    width: 170px;
+    height: 140px;
+    box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+#menu #two li {
+    list-style: none;
+    padding-left: 10px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+#menu #two li:hover {
+    background-color: #ccc;
+}
+
+#menu  .down {
+    color: #fff;
+    position: absolute;
+    right: 5px;
+}
+#menu #one li:hover .down {
+    color: #000;
+}
+
+#menu #menu_two .search {
+    color: #fff;
+   position: absolute;
+   right:  0;
+   padding: 15px;
+}
+#menu #menu_two:hover .search{
+    background-color: #f44336;
+    cursor: pointer;
+}
+/* ket thuc menu */
+#cleaner {
+    height: 46px;
+    display: none;
+}
+/* day la banner */
+
+
+#banner {
+    height:750px;
+    background-image: url(./img/myteam.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+}
+#banner #banner_one {
+    padding-top:580px;
+    color: #fff;
+    text-align: center;
+    line-height: 38px;
+}
+#banner #banner_one h3 {
+    font-weight: inherit;
+}
+#banner #banner_one p {
+    font-weight: bold;
+}
+/*ket thuc banner */
+/*day la the band*/
+#the_band{
+    height: 600px;
+    margin: 0 248px;
+    padding: 0 16px;
+}
+
+.common_part {
+    text-align: center;
+    margin-top: 90px;
+    line-height: 40px
+}
+
+#the_band .common_part h2 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+#the_band .common_part i {
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    color: rgb(168, 162, 162);
+}
+
+#the_band #the_band_one {
+    margin-top: 30px;
+}
+
+#the_band #the_band_one p {
+    text-align: justify;
+    line-height: 1.3;
+}
+
+#the_band #the_band_two {
+    height: 290px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+#the_band .band_two {
+    
+    height: 270px;
+    margin-left: 64px
+}
+
+#the_band .band_two p{
+    text-align: center;
+
+}
+#the_band .band_two img {
+    height: 200px;
+    width: 180px;
+    margin-top: 20px
+}
+/* ket thuc the band */
+/* bat dau tour date */
+
+#tour_date {
+    background-color: #000;
+   
+   
+}
+
+#tour_date .common_part{
+    padding-top: 100px;
+}
+
+#tour_date .common_part h2 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: #fff;
+}
+
+#tour_date .common_part i {
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    color: rgb(168, 162, 162);
+}
+
+#tour_date #ticket {
+    margin: 0 248px;
+    padding: 0 16px;
+}
+
+#tour_date #ticket #form_ticket {
+    color: rgb(169, 177, 177);
+    margin-top: 50px;
+    background-color: #fff;
+    list-style: none;
+}
+#ticket #form_ticket span {
+    color: #fff;
+    background-color: #f44336;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+#ticket #form_ticket li {
+    padding: 20px 0 20px 15px;
+    border-bottom:1px solid #ccc;
+}
+#ticket #form_ticket .number{
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    padding: 5px 9px;
+    float: right;
+    margin-right: 15px;
+}
+
+#place {
+    display: flex;
+    justify-content: center;
+}
+
+#tour_date #place {
+    margin: 40px 248px 0 248px;
+    padding: 0 16px;
+    padding-bottom: 60px;
+   
+}
+
+#tour_date #place .common_place {
+    background-color: #fff;
+    width: 234px;
+    
+    
+}
+#place .common_place img {
+    width: 100%;
+}
+
+#place .common_place h4 {
+    margin: 15px 0 20px 10px;
+    font-size: 16px;
+}
+#place .common_place .date {
+    margin: 0 0 20px 10px;
+    color: rgb(124, 120, 120);
+}
+#place .common_place .date_one {
+    padding-left: 10px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+#place .common_place button {
+    margin:15px 0 15px 10px ;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#place .common_place button:hover {
+    color: #000;
+    background-color: #ccc;
+}
+/* ket thuc tourn date */
+/*bat dau contac*/
+#contact {
+    height: 400px;
+    margin: 0 248px;
+    padding: 0 16px;
+}
+
+#contact .common_part h2 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+#contact .common_part i{
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    color: rgb(168, 162, 162);
+}
+
+#contact #number_phone {
+    margin-top: 50px;
+    float: left;
+}
+#contact #number_phone .selection {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+#number_phone .selection i{
+   width: 30px;
+}
+#contact #information {
+    float: right;
+    margin-top: 50px;
+}
+#contact #information #name {
+    width: 200px;
+    padding: 10px 0 10px 5px;
+    border:1px solid #ccc;
+    margin-right: 15px;
+    margin-bottom: 20px;
+   
+}
+
+#contact #information #email {
+    width: 200px;
+    padding: 10px 0 10px 5px;
+    border:1px solid #ccc;
+    
+}
+
+#contact #information #message {
+    width: 418px;
+    padding: 10px 0 10px 5px;
+    border:1px solid #ccc;
+   
+}
+#contact #information #but {
+    float: right;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #000;
+    color:#fff ;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+#contact #information #but:hover{
+    color: #000;
+    background-color: #ccc;
+} 
+/* ket thuc contact */
+/*bat dau map*/
+
+#map {
+    width: 100%;
+    height: 840px;
+}
+#map img {
+    height: 800px;
+    width: 100%;
+}
+/* ket thuc map */
+/* bat dau trademark*/
+#trademark {
+    height: 200px;
+}
+#trademark #network {
+    text-align: center;
+    margin-top: 40px;
+}
+#trademark #network .logo {
+    font-size: 20px;
+    color:rgb(122, 122, 122);
+    cursor: pointer;
+}
+#trademark #network .logo:hover {
+    color: #ccc;
+}
+#trademark #power {
+    text-align: center;
+    margin-top: 25px;
+    
+}
+#trademark #power p {
+    color: rgb(190, 190, 190);
+}
+#trademark #power a {
+    color: rgb(190, 190, 190);
+}
+/* ket thuc trademark */
+ 
+.modal {
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+    display: none;
+    justify-content: center;
+}
+.open{
+    display: flex;
+}
+
+.modal #modal_one {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  margin-top: 90px;
+  height: 480px;
+  animation: run ease .3s;
+}
+
+ #modal_one #modal_header {
+    width:820px;
+    height: 120px;
+    background-color: #009688;
+}
+
+ #modal_header #header{
+    float: left;
+    margin-top: 36px;
+    margin-left: 330px;
+    color: #fff;
+    font-size: 44px;
+}
+
+#modal_header #header .vali {
+    margin-right: 15px;
+}
+
+#modal_header #header .tk {
+    letter-spacing: 7px;
+}
+#modal_one #modal_header .close {
+    float:right;
+    padding: 12px;
+    color: #fff;
+    cursor: pointer;
+}
+#modal_one #modal_header .close:hover{
+    color: #000;
+    background-color: #ccc;
+}
+
+.modal #price {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+#price #price_form {
+    margin-bottom: 30px;
+}
+#price #price_form .modal_lable {
+    font-size: 14px;
+}
+
+#price #price_form .many {
+    margin:20px 0;
+    width: 790px;
+    height: 40px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    padding-left: 10px;
+}
+#price #price_form #footer_form{
+    background-color:#009688 ;
+    height: 50px;
+    width: 790px;
+    text-align: center;
+    color: #fff;
+    padding-top:18px;
+    cursor: pointer;
+}
+#price #price_form #footer_form:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.modal #footer #cl {
+    float: left;
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#footer .icon_close {
+    margin-left: 5px;
+    
+}
+
+.modal #footer #cl:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+#footer #need_help {
+    float: right;
+    margin-right: 10px;
+    margin-top: 15px;
+    color: rgb(109, 108, 108);
+}
+
+#footer #need_help a {
+    color: rgb(109, 108, 108);
+}
+
+@keyframes run {
+    from {
+        transform: translateY(-50px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}

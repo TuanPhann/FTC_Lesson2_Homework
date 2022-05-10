@@ -1,0 +1,147 @@
+/* pc*/
+@media only screen and (min-width:1024px) {
+    #the_band {
+        margin: 0 200px;
+    }
+    #the_band .band_two img {
+        height: 264px;
+        width: 210px;
+    }
+    #the_band .band_two {
+        margin-left: 50px;
+    }
+    #tour_date #ticket {
+        margin: 0 200px;
+    }
+    #tour_date #place {
+        margin: 40px 100px 0 100px;
+    }
+    #tour_date #place .common_place {
+        margin-left: 30px;
+    }
+    #contact{
+    margin: 0 200px;
+    
+}
+#information {
+    width: 350px;       
+}
+#contact #information #name {
+    width: 48%;
+    margin-right: 2%;
+}
+#contact #information #email {
+    width: 48%;
+
+}
+#contact #information #message {
+    width: 100%;
+}
+#map img {
+    height: 550px;
+}
+#map {
+    height: 550px;
+}
+
+}
+/* ipad air */
+@media only screen and (min-width:820px) and (max-width:1023px) {
+    #banner {
+        height: 520px;
+    }
+    
+    #banner #banner_one {
+        padding-top: 400px;
+    }
+    
+    #the_band  {
+        margin: 0 120px;
+    }
+    
+    #the_band .band_two img {
+       width: 150px;
+       height: 188px;
+    }
+    #the_band .band_two {
+        margin-left: 20px;
+    }
+    
+    #tour_date #ticket {
+        margin: 0 120px;
+    }
+    
+    #tour_date #place {
+        margin: 40px 120px 0 120px;
+    }
+    #tour_date #place .common_place {
+        margin: 0px 7px;
+    }
+    #contact{
+        margin: 0 120px 0 120px;
+    }
+    #contact #number_phone .selection  {
+        font-size: 14px;
+    }
+    #information {
+        width:340px;
+
+    }
+    #contact #information #name {
+        width: 160px;
+    }
+    #contact #information #email {
+        width: 160px;
+    }
+    #contact #information #message {
+        width: 340px;
+    }
+    #map {
+        height: 400px;
+    }
+    #map img {
+        height: 400px;
+    }
+}
+
+/* tapble*/
+@media only screen and (min-width:740px) and (max-width:819px) {
+#banner {
+    height: 520px;
+}
+
+#banner #banner_one {
+    padding-top: 400px;
+}
+
+#the_band  {
+    margin: 0 20px;
+}
+
+#the_band .band_two img {
+   width: 158px;
+   height: 190px;
+}
+
+#tour_date #ticket {
+    margin: 0 20px;
+}
+
+#tour_date #place {
+    margin: 40px 20px 0 20px;
+}
+#contact{
+    margin: 0 20px 0 40px;
+}
+#map {
+    height: 400px;
+}
+#map img {
+    height: 400px;
+}
+}
+
+/* mobile */
+@media only screen and (max-width:739px) {
+
+}
